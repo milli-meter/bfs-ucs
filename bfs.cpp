@@ -58,7 +58,7 @@ int main()
     g.add_edge(2,3);
     g.add_edge(3,3);
     int v;
-    cout<<"Enter vertex from where to perform BFS"<<endl;
+    cout<<"Nhap dinh bat dau"<<endl;
     cin>>v;
     g.BFS(2);
 cout<< (char)true;
