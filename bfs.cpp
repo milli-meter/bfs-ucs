@@ -1,4 +1,4 @@
-//Modified version of http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/
+
 
 # include <iostream>
 # include <algorithm>
@@ -9,7 +9,7 @@ using namespace std;
 class Graph
 {
     vector< vector<int> > Edge;
-    vector<unsigned char> visited; //We can use vector<bool>, but it's slow and broken :( , CPP's byte array http://stackoverflow.com/questions/10077771/what-is-the-correct-way-to-deal-with-medium-sized-byte-arrays-in-modern-c
+    vector<unsigned char> visited; 
 public:
 
     Graph(int V)
