@@ -119,7 +119,7 @@ int main()
     vector<int> answer = uniform_cost_search(goal, 0);
  
 
-    cout << "Minimum cost from 0 to 6 is = "
+    cout << "Gia tri nho nhat la = "
          << answer[0] << endl;
  
     return 0;
